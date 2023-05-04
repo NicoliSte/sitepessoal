@@ -16,6 +16,7 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+   
 `;
 
 export const Title = styled.div`
@@ -27,9 +28,19 @@ export const Title = styled.div`
 `;
 
 export const NavLinks = styled.nav`
+
   display: flex;
   gap: 20px;  
   justify-content: center;
+  position: fixed;
+  gap: 0px;
+  top: 0px;
+  right: 0px;
+  width: 40%;
+  height: 100%;
+  overflow-y: scroll;
+
+  
   
 
   @media (max-width: 560px) {

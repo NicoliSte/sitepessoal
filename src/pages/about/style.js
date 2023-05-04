@@ -27,13 +27,16 @@ export const Content = styled.div`
 
 export const Infos = styled.div`
   text-align: start;
-  width: 80%;
-  
+  width: 100%;
   display: grid;
+  margin-top: 120px;
+  
   @media (max-width: 760px) {
-    margin-top: 100px;
+    margin-top: 180px;
     width: 90%;
   }
+
+
 `;
 
 export const Name = styled.span`
@@ -49,8 +52,8 @@ export const Name = styled.span`
   @media (max-width: 760px) {
    
     font-family: 'Nunito';
-  font-style: italic;
-  font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
     font-size: 25px;
   }
 `;

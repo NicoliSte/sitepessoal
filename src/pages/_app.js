@@ -1,8 +1,12 @@
+import React, { useState } from 'react';
 import '../../styles/globals.css'
 import Head from 'next/head'
 import Header from '../../components/Header'
 
+
 function MyApp({ Component, pageProps }) {
+
+
   return (
     <>
       <Head>
@@ -15,4 +19,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;
