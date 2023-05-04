@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaArrowRight, FaTimes } from 'react-icons/fa';
-import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from './style';
+import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../../styles/styleabout';
 import Link from 'next/link'
 
 function About() {

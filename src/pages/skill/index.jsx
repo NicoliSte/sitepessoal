@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, ImageContainer, ImageDescription, ImageWrapper } from './style';
+import { Container, ImageContainer, ImageDescription, ImageWrapper } from '../../../styles/styleskill';
 import Image from 'next/image';
 
 const images = [{ src: '/images/imagem1.svg' }, 
